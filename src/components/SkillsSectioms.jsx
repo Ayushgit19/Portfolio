@@ -17,9 +17,16 @@ const skills = [
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+
+  // Languages
+  { name: "C++", level: 95, category: "Languages" },
+  { name: "C", level: 95, category: "Languages" },
+  { name: "Python", level: 95, category: "Languages" },
+  { name: "SQL", level: 95, category: "Languages" },
+
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools", "languages"];
 
 const SkillsSectioms = () => {
   const [activeCategory, setActiveCategory] = useState("all");
