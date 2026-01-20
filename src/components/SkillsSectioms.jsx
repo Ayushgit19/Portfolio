@@ -19,10 +19,10 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
 
   // Languages
-  { name: "C++", level: 95, category: "Languages" },
-  { name: "C", level: 95, category: "Languages" },
-  { name: "Python", level: 95, category: "Languages" },
-  { name: "SQL", level: 95, category: "Languages" },
+  { name: "C++", level: 95, category: "languages" },
+  { name: "C", level: 95, category: "languages" },
+  { name: "Python", level: 95, category: "languages" },
+  { name: "SQL", level: 95, category: "languages" },
 
 ];
 
